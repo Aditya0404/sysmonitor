@@ -1,6 +1,6 @@
 # Sysmonitor
 
-This is a Server-Client application which consists of the following components:
+This application monitors ssh logins on the server and displays it on Kibana. It consists of the following components:
 * Server
 * Client
 
