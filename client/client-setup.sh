@@ -1,5 +1,7 @@
 #!/bin/bash
 
+wget https://raw.githubusercontent.com/Aditya0404/sysmonitor/main/client/fluent.conf
+wget https://raw.githubusercontent.com/Aditya0404/sysmonitor/main/client/Dockerfile
 
 sudo chmod +r /var/log/secure 
 sudo chmod +r /var/log/syslog 
