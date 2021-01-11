@@ -32,3 +32,11 @@ sudo bash client-setup.sh
 
 It will ask for the ip of the server which you will find in the output section of CloudFormation:
 <image>
+
+
+
+After Running the client, you can go to the URL for server and see the logs there. 
+Before that, you need to create an index pattern with the name "serverlog" for the first time on kibana:
+Final Output:
+
+img
