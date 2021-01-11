@@ -12,7 +12,7 @@ This application monitors ssh logins on the server and displays it on Kibana. It
 
    ![ClouFormationS3URL](/images/cfs3url.png)
   
-* *If the above link is not working, you can find the json(ec2.json) in the server folder in the repository
+* *If the above link is not working, you can find the json(ec2.json) in the server folder in the repository*
 * You can select any key pair(if nothing is shown, create a new one), use the remaining default values and launch the stack
 * **Don't use a smaller instance type**
 * In the output resources, you will find the browser accessible url for the server
