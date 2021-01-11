@@ -29,3 +29,6 @@ wget https://raw.githubusercontent.com/Aditya0404/sysmonitor/main/client/client-
 sudo chmod +x client-setup.sh
 
 sudo bash client-setup.sh
+
+It will ask for the ip of the server which you will find in the output section of CloudFormation:
+<image>
