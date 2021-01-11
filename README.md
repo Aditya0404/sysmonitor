@@ -4,7 +4,7 @@ This is a Server-Client application which consists of the following components:
 * Server
 * Client
 
-###### Setting up the Server:
+## Setting up the Server:
 
 Go to Cloudformation service dashboard and click on create stack and use the following S3 url, as shown in the image:
 
@@ -19,7 +19,7 @@ In the output resources, you will find the browser accessible url for the server
 
 (outputs3.png)
 
-###### Setting up the Client:
+## Setting up the Client:
 
 The only prerequisite is that Docker should be installed on the client which you want to monitor
 
