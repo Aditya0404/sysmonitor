@@ -22,7 +22,7 @@ This is a Server-Client application which consists of the following components:
 
 **The only prerequisite is that Docker should be installed on the client which you want to monitor**
 
-* Download the client setup script and cchange it's perission and execute it to setup the client:
+* Download the client setup script, give it execute permission and run it to setup the client:
 
        wget https://raw.githubusercontent.com/Aditya0404/sysmonitor/main/client/client-setup.sh
 
