@@ -24,7 +24,7 @@ The only prerequisite is that Docker should be installed on the client which you
 
 Run the following two commands to start monitoring ssh logins on the server:
 
-wget https://github.com/Aditya0404/sysmonitor/blob/main/client/client-setup.sh
+wget https://raw.githubusercontent.com/Aditya0404/sysmonitor/main/client/client-setup.sh
 
 sudo chmod +x client-setup.sh
 
