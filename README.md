@@ -10,14 +10,13 @@ Go to Cloudformation service dashboard and click on create stack and use the fol
 
 https://s3.ap-south-1.amazonaws.com/cf-templates-1auc82aqo45as-ap-south-1/2021011F3z-ec2.json
 
-
-(CFs3url.png)
+![ClouFormationS3URL](/images/cfs3url.png)
 
 You can select any key pair and use the remaining default values and launch the stack
 
 In the output resources, you will find the browser accessible url for the server
 
-(outputs3.png)
+![ServerURL](/images/outputs3.png)
 
 ## Setting up the Client:
 
@@ -32,7 +31,7 @@ sudo chmod +x client-setup.sh
 sudo bash client-setup.sh
 
 It will ask for the ip of the server which you will find in the output section of CloudFormation:
-<serverip.png>
+![ServerIP](/images/serverip.png)
 
 
 
@@ -40,4 +39,4 @@ After Running the client, you can go to the URL for server and see the logs ther
 Before that, you need to create an index pattern with the name "serverlog" for the first time on kibana:
 Final Output:
 
-final.png
+![KibanaFinal](/images/final.png)
